@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mother's Day Gallery</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      margin: 0;
+      padding: 1rem;
+      background: #fff0f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #d63384;
+      margin-bottom: 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    a.back-btn {
+      margin-top: 2rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #e91e63;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    a.back-btn:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+    <audio id="bgMusic" autoplay unmuted loop>
+        <source src="@coldplay  - A Sky Full Of Stars (Lyrics).mp3" type="audio/mpeg" />
+      </audio>
+
+  <h1>🌸 My Beautiful Mother 🌸</h1>
+  <div class="gallery">
+    <!-- Replace these with your own images -->
+    <img src="1.jpeg" alt="Memory 1" />
+    <img src="2.jpeg" alt="Memory 2" />
+    <img src="3.jpeg" alt="Memory 3" />
+    <img src="4.jpeg" alt="Memory 4" />
+    <img src="5.jpeg" alt="Memory 4" />
+    <img src="6.jpeg" alt="Memory 4" />
+    <img src="7.jpeg" alt="Memory 4" />
+    <img src="8.jpeg" alt="Memory 4" />
+    <img src="9.jpeg" alt="Memory 4" />
+    <img src="10.jpeg" alt="Memory 4" />
+    <img src="11.jpeg" alt="Memory 4" />
+    <img src="12.jpeg" alt="Memory 4" />
+    <img src="13.jpeg" alt="Memory 4" />
+    <img src="14.jpeg" alt="Memory 4" />
+    <img src="15.jpeg" alt="Memory 4" />
+    <img src="16.jpeg" alt="Memory 4" />
+    <img src="17.jpeg" alt="Memory 4" />
+</div>
+  <a href="index.html" class="back-btn">← Back to Card</a>
+</body>
+</html>
